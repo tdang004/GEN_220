@@ -10,7 +10,7 @@ echo "gmap_build done"
 
 #GNSAP code for Snt2 mutant treated vs untreated files
 
-gsnap -D /bigdata/messaoudilab/arivera/GEN220/groupproject/2.Alignment/GSNAP/4.gsnap_buildtest2/S.cerevisiae/ -d S.cerevisiae --force-singe-end --pairmax-rna=2000 --format=sam 2nt2D_0hrs_rep1_1.fastq 2nt2D_0hrs_rep2_2.fastq 2nt2D_0hrs_rep3_3.fastq 2nt2D_0hrs_rep3_3.fastq 2nt2D_0.5hrs_rep1_1.fastq 2nt2D_0.5hrs_rep2_1.fastq 2nt2D_0.5hrs_rep3_1.fastq
+gsnap -D /bigdata/messaoudilab/arivera/GEN220/groupproject/2.Alignment/GSNAP/4.gsnap_buildtest2/S.cerevisiae/ -d S.cerevisiae --force-single-end --pairmax-rna=2000 --format=sam 2nt2D_0hrs_rep1_1.fastq 2nt2D_0hrs_rep2_2.fastq 2nt2D_0hrs_rep3_3.fastq 2nt2D_0hrs_rep3_3.fastq 2nt2D_0.5hrs_rep1_1.fastq 2nt2D_0.5hrs_rep2_1.fastq 2nt2D_0.5hrs_rep3_1.fastq
 
 echo "GSNAP done"
 
